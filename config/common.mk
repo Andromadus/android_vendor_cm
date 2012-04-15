@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     Torch
 
+# Extra tools in CM
+PRODUCT_PACKAGES += \
+    openvpn
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
