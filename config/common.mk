@@ -46,7 +46,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so \
     vendor/cm/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
 
-# Bring in camera effects
+# Bring in camera effects & videos
+$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/cm/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
