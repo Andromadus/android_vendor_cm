@@ -101,7 +101,8 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    Torch
+    Torch \
+    Apollo
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
