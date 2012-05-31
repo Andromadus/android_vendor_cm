@@ -44,3 +44,5 @@ add_lunch_combo cm_wingray-userdebug
 add_lunch_combo cm_zeus-userdebug
 add_lunch_combo cm_vision-userdebug
 add_lunch_combo cm_vision-eng
+add_lunch_combo cm_ace-userdebug
+add_lunch_combo cm_ace-eng
